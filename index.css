@@ -1,0 +1,322 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container-fluid {
+    padding-top: 0;
+}
+.media {
+    padding: 0;
+    height: 850px;
+    width: 100%;
+    background-image: url(assets/backgrounds/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.media2 {
+    padding: 0;
+    height: 600px;
+    width: 100%;
+    background-image: url(assets/foodtop/breakfast.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.media3 {
+    padding: 0;
+    height: 300px;
+    width: 100%;
+    background-image: url(assets/foodtop/lunch.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.overlay {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    height: 850px;
+    background: black;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.header {
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Handlee', Open Sans;
+    color: white;
+    font-size: 60px;
+}
+
+.logo {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.men {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    height: 50px;
+    width: 75px;
+}
+
+
+
+
+.bg-1 {
+    padding: 0;
+}
+
+.bg-10 {
+    padding: 0;
+}
+
+.bg-00 {
+    background-color: #F15A29;
+}
+
+.happy {
+    height: 119px;
+    width: 300px;
+}
+
+.overlay-mini {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.0);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.bg-1:hover .overlay-mini {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(250, 250, 250, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.bg-1:hover .text {
+    color: #000000;
+}
+
+.text {
+    color: white;
+    font-size: 40px;
+    font-family: 'Handlee', Open Sans;
+    padding: 16px 32px;
+    white-space: nowrap;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.text {
+    text-align: center;
+    margin-top: 2%;
+    color: #ffffff;
+}
+
+#text1 {
+    padding: 5%;
+    text-align: left;
+}
+
+#text2 {
+    padding: 5%;
+    text-align: right;
+}
+
+#text3 {
+    padding: 5%;
+    text-align: center;
+}
+
+.fasts {
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-top: 10%;
+    padding: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.overlayMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F15A29;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayMenu a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayMenu a:hover,
+.overlayMenu a:focus {
+    color: #f1f1f1;
+}
+
+.overlayMenu .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlayMenu a {
+        font-size: 20px
+    }
+    .overlayMenu .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+
+
+.button {
+    border: none;
+    color: #F15A29;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button1 {
+    background-color: white;
+    color: #F15A29;
+    border: 2px solid #F15A29;
+}
+
+.body2{
+   width: 100%;
+   height: 600px;
+   padding: 50px;
+   margin: 100px auto;
+   background-image: url(assets/backgrounds/foodsBg.jpg);
+   background-size: cover;
+   justify-content: center;
+   display: flex ;
+   align-items: center;
+
+}
+.card{
+    margin: 100px auto;
+    height: auto;
+    width: max-content;
+    background-size: cover;
+    justify-content: center;
+    display: flex ;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    margin: 100px auto;
+
+}
+.container .image{
+    position: relative;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.container2{
+    width: 1200px;
+    height: 300px;
+    padding: 0px;
+    margin: 100px auto;
+    background-image: url(assets/backgrounds/subscribe.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex ;
+}
+.container02{
+    width: 1200px;
+    height: 300px;
+    padding: 0px;
+    margin: 100px auto;
+    background-color: #F15A29;
+    justify-content: center;
+    display: flex ;
+}
+.btn1{
+    width: 400px;
+    height: 50px;
+    background-color: rgba(250, 250, 250, 0.5);
+    border-radius: 20px;
+    border: 2px solid;
+    text-align: left;
+
+}
+.btn2{
+    width: 200px;
+    height: 50px;
+    background-color: #F15A29;
+    border-radius: 20px;
+    border: 2px solid;
+    
+
+}
+.menu2 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 30px;
+}
